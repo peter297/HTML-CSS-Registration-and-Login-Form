@@ -5,6 +5,7 @@
     --gray: #e5e5e5;
     --white: #ffffff;
     --dark-gray: #403d39;
+    scrollbar-width: thin;
 }
 
 
@@ -14,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 2px solid red; */
+    /* outline: 2px solid green; */
 
 }
 
@@ -103,3 +104,4 @@ form{
     color: var(--gray);
 
 }
+
