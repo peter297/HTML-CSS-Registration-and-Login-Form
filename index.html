@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+
+    <div id="myPopover">
+        <form action="">
+            <h2>Login</h2>
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter your Password">
+
+            <a href="" class="btn">Login</a>
+
+            <a href="registration.html" class="register">Don't have an account?</a>
+        </form>
+
+    </div>
+
+
+    <script>
+        function showlogin(){
+            const element = document.getElementById('myPopover');
+            element.style.display = 'none';
+
+        }
+
+        function showLogiForm(){
+            const element = document.getElementById('myPopover');
+            element.style.display = 'block';
+        }
+    </script>
+
+</body>
+
+</html>
