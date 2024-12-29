@@ -10,32 +10,48 @@
 
 <body>
 
-    <div id="myPopover">
-        <form action="">
-            <h2>Login</h2>
+    <div class="two-column-grid">
 
-            <label for="email">Email:</label>
-            <input type="email" placeholder="Enter your email">
+        <div class="left-side">
+            <div class="left-content">
+                <h2>Login to Access all our Resources</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolor voluptatem quia, molestiae facere
+                    ducimus.</p>
+            </div>
+        </div>
 
-            <label for="password">Password:</label>
-            <input type="password" placeholder="Enter your Password">
+        <div class="right-side">
+            <div id="myPopover">
+                <form action="">
+                    <h2>Login</h2>
 
-            <a href="" class="btn">Login</a>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Enter your email">
 
-            <a href="registration.html" class="register">Don't have an account?</a>
-        </form>
+                    <label for="password">Password:</label>
+                    <input type="password" placeholder="Enter your Password">
 
+                    <a href="" class="btn">Login</a>
+
+                    <a href="registration.html" class="register">Don't have an account?</a>
+                </form>
+
+            </div>
+
+        </div>
     </div>
 
 
+
+
     <script>
-        function showlogin(){
+        function showlogin() {
             const element = document.getElementById('myPopover');
             element.style.display = 'none';
 
         }
 
-        function showLogiForm(){
+        function showLogiForm() {
             const element = document.getElementById('myPopover');
             element.style.display = 'block';
         }
